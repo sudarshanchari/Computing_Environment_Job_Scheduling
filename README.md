@@ -93,6 +93,6 @@ name=`basename $file .fastq.gz`
 # wc -l ${dir}${name} > $bname.out
 
 trim_galore ${dir}${name}.fastq.gz -o <full path to target directory>
-# Trimgalore does not require a final file name as it generates the appropriate file name automatically
+# Trimgalore does not require a final output file name as it generates the appropriate file name automatically
 
 ```
