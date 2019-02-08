@@ -1,4 +1,4 @@
-# Environment_and_Scheduling
+# Computing Environment and Job Scheduling
 My general strategy for using virtual environments and submitting jobs to a queue via schedulers
 
 ## Environment
