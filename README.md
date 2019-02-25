@@ -4,6 +4,8 @@ My general strategy for using virtual environments and submitting jobs to a queu
 ## Environment
 - I like doing much of the sequencing/ scripting related projects in a conda environment (https://conda.io/projects/conda/en/latest/user-guide/getting-started.html). (for a few reasons why, see https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c)
 
+- You can locally install (mini)conda even if you do not have admin privilige
+
 ```
 # For example you can create an environment called 'ngs' and install all of the analysis tools there
 conda create --name ngs
