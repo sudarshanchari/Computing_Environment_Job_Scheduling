@@ -21,7 +21,7 @@ source deactivate ngs
 ```
 
 ## Schedulers
-- For most projects I have used an academic HPCC and submit jobs to a queue through a scheduler (slurm/sbatch or pbs/qsub).  To perform the same operation on multiple files I create an array of all filenames in the target directory and submit them as separate, parallel jobs. Each job then can be multi-threaded as per need.
+- For most projects I have used an academic HPCC and submit jobs to a queue through a scheduler (slurm/sbatch or pbs/qsub).  To perform the same operation on multiple files I create an array of all filenames in the target directory and submit them as separate, parallel jobs. Each job can then be further multi-threaded as per need or applicability.
 - If the software you're using is installed in a conda environment, then all you need to do is activate the environment before you submit your job to a scheduler. 
 - Below I provide an example of how it can be used, for say, performing adapter trimming on multile fastq files using Trim Galore. While this example is for slurm/ sbatch, it works just as well with a pbs/ qsub scheduler (needs appropriate tweaking) and any other ngs tools.
 
