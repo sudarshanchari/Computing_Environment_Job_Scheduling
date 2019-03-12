@@ -18,6 +18,9 @@ conda install -c bioconda packagename
 # you can exit the environment
 source deactivate ngs
 
+# as of version 4.6.7+ you can just type
+conda deactivate
+
 ```
 
 ## Schedulers
